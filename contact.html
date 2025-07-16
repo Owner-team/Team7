@@ -28,26 +28,51 @@
 
 
 <main>
-  <div class="contact-box">
-    <h2>Nala Soo Xiriir</h2>
-    <form action="#" method="post">
-      <input type="text" name="name" placeholder="Magacaaga" required>
-      <input type="email" name="email" placeholder="Emailkaaga" required>
-      <textarea name="message" rows="5" placeholder="Fariintaada..." required></textarea>
-      <button type="submit">Dir Fariin</button>
-    </form>
+
+
+
+  <div class="contact-form">
+  <h2>Contact Us</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<div class="contact-details">
+  <h2>Contact Details</h2>
+
+  <div class="contact-item">
+    <strong>Phone:</strong>
+    <a href="tel:+252612345678">+252 61 243 243</a>
   </div>
+
+  <div class="contact-item">
+    <strong>Email:</strong>
+    <a href="mailto:example@example.com">CNS243@gmail.com</a>
+  </div>
+
+  <div class="contact-item">
+    <strong>WhatsApp:</strong>
+    <a href="https://wa.me/252612345678" target="_blank" rel="noopener noreferrer">HaLL 15</a>
+  </div>
+</div>
+
 </main>
 
 <footer>
   <p>&copy; 2025 Dalxiis Plus. Xuquuqda way dhowran tahay.</p>
 </footer>
 
-<script>
-  function toggleMenu() {
-    document.querySelector('nav').classList.toggle('active');
-  }
-</script>
+
 
 </body>
 </html>
